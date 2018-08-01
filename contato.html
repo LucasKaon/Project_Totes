@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Totes Contabilidade</title>
+
+    <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="estilo/style.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-default navbar-custom">
+      <div class="container" id="navegacao">
+
+          
+        <!-- Barra -->
+        <div class="navbar-header"> <!-- Colapse -->
+          <button type="button" class="navbar-toggle collapsed"
+            data-toggle="collapse" data-target="#barra">
+            <span class="sr-only">Alternar menu</span> <!-- acessibilidade -->
+            <span class="icon-bar"></span>  
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+          </button>
+          <a href="#" class="navbar-brand img-logo"></a>
+        </div> <!-- end Colapse -->
+
+        <div class="collapse navbar-collapse " id="barra">
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li > <a href="index.html"><span class="link-custom">Home</span></a> </li>
+            <li> <a href="sobre-nos.html"><span class="link-custom">Sobre nós</span></a> </li>
+            <li> <a href="cursos.html"><span class="link-custom">Cursos</span></a> </li>
+              
+            <li> <a href="#"><span class="link-custom">Serviços</span></a></li>
+            <li class="nano"> <a href="#"><span class="link-custom">Contato</span></a></li>
+            
+            
+          </ul>  
+        </div>
+      </div>
+    </nav> <!-- End Navegacao -->
+
+  <div class="container"> <!-- Início Container -->
+
+    <div class="col-sm-12">
+      
+      <h3 id="contato-titulo">Contate-nos</h3>
+
+      <div class="row">
+        
+        <div class="col-sm-8"> <!-- Início Formulário -->
+              
+            <form id="form-custom" method="post" action="http://www.totescontabilidade.com.br/cgi-sys/formmail.pl"/> 
+            <input type="hidden" name="recipient" value="totes@totescontabilidade.com.br"/>
+            <input type="hidden" name="subject" value="Formulário FormMail"/><input type="hidden" name="redirect" value="http://www.totescontabilidade.com.br"/>
+              
+              <div class="form-group">
+                <label for="nome">Nome: </label>
+                <input type="text" class="form-control" id="nome" required  autofocus>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="email" class="form-control" id="email" required >
+              </div>
+
+              <div class="form-group">
+                <label for="assunto">Assunto: </label>
+                <input type="text" class="form-control" id="assunto" required >
+              </div>
+
+              <div class="form-group">
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" rows="5" placeholder="Digite aqui a sua mensagem" class="form-control" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-default pull-right">
+               Enviar
+               </button>
+
+               <button type="reset" class="btn btn-reverse pull-right">
+               Limpar
+               </button>
+
+
+
+            </form>
+
+        </div> <!-- end Formulário -->
+
+        <div class="col-sm-3 img-contato"> <!-- Imagem -->
+          
+          <h2>Contato</h2>
+
+        </div>
+
+      </div> <!-- end Row -->
+
+
+    </div>
+
+    <div class="col-sm-12 mapa">
+
+      <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d675.4940825926282!2d-49.256820483719565!3d-16.718288976450975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef0e570c645db%3A0x8e27a923acaae21f!2sEfici%C3%AAncia+Cont%C3%A1bil+-+Cursos!5e0!3m2!1spt-BR!2sbr!4v1531945972881" width="100%" height="310" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+      
+    </div>
+
+  </div> <!-- Fechamento Container --> 
+
+    <footer> <!-- Rodapé --> 
+      <div class="row">
+           <div class="col-sm-12" id="rodape">
+
+            <div class="col-sm-2 col-sm-offset-2 conteudo-rodape"  "> <!-- Conteúdo -->
+              <h3>Mapa do Site</h3>
+
+              <ul class="nav">
+                <li><a href="#" class="cor-preta">Home</a></li>
+                <li><a href="#" class="cor-preta">Sobre nós</a></li>
+                <li><a href="#" class="cor-preta">Serviços</a></li>
+                <li><a href="#" class="cor-preta">Cursos</a></li>
+                <li><a href="#" class="cor-preta">Fale Conosco</a></li>
+              </ul>
+
+            </div>
+
+            <div class="col-sm-3 col-sm-offset-2 conteudo-rodape" > <!-- Conteúdo -->
+              <h3>Dados para contato</h3>
+              <ul class="nav">
+                
+                <li><img src="img/icon/casa.svg" class="img-rodape"></li>
+                <a href="contato.html" class="cor-preta">
+                Al. Couto Magalhães, n°43 Qd. 88 Lt.15, Setor Pedro Ludovico</a><br><br>
+
+                <li><img src="img/icon/telefone.svg" class="img-rodape"></li>
+                (62) 3255-8241<br><br>
+                
+                <li><img src="img/icon/email.svg" class="img-rodape"></li>
+                <a href="contato.html" class="cor-preta">jtotes@totescontabilidade.com.br</a>
+              
+              </ul>
+            </div>
+
+            <div class="col-sm-3 " id="itens-rodape"> <!-- Logo -->
+              
+              <ul class="nav">
+                <li><a href="#"><img src="img/icon/facebook.png" class="img-redes-sociais"></a></li>
+                <li><a href="#"><img src="img/icon/instagram.png" class="img-redes-sociais"></a></li>
+                <li><a href="#"><img src="img/icon/twitter.png" class="img-redes-sociais"></a></li>
+              </ul>
+
+            </div>
+
+            
+
+            </div>
+
+          </div>
+      </div>
+      <!--<p style="font-size: 10px" align="right"> &copy; 2018 - Lucas Amado</p>-->
+    </footer> <!-- end Rodapé --> 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

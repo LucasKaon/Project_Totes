@@ -1,0 +1,366 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html{
+	font-family: Trebuchet MS;
+	background: linear-gradient(to bottom, #fafafa, #dbdcf6);
+	margin: 0px;
+
+}
+
+body{
+	overflow-x: hidden;
+}
+
+footer{
+	width: 100%;
+	position: absolute;
+	margin: 0 auto;
+	/*	.footer {
+   width: 100%;
+   margin-top: 2.4em;
+   margin-bottom: 2.4em;
+   float: left;
+   clear: both;
+	}	*/
+}
+
+
+
+/* ----- Barra de Navegação-----*/
+
+
+/* Classes */
+
+.img-logo{
+	height: 60px;
+	width: 147px;
+	display: block;
+	background: url(../img/logo.svg) no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+.navbar-custom{
+	padding: 20px 0px;
+	background: rgba(227,188,57,0.7);
+
+}
+
+.link-custom{
+	color: gray;
+}
+
+.link-custom:hover{
+	color: black;
+}
+
+.nano{
+	background: none;
+	text-decoration: underline;
+}
+
+
+
+
+/* ID's */
+
+#img-carousel{
+	width: 100%;
+	height: 507px;
+}
+
+#navegacao{
+	padding-right: 35px;
+}
+
+#barra{
+	padding-top: 9px;
+	font-size: 16px;
+}
+
+
+/* ----- Conteúdo e Rodapé -----*/
+
+/* Classes */
+
+
+
+.div_cursos{		//pertence as div's responsavei por mostrar uma preview dos cursos
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	padding-left: 30px;
+	margin-bottom: 50px;
+	height: 400px;
+}
+
+
+.estilo-titulos{
+	margin-bottom: 1px;
+	padding: 12px 10px 12px 10px;
+}
+
+.conteudos{
+	padding-top: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 350px;
+}
+
+.conteudo-rodape{
+	margin-top: 5px;
+	height: 150px;
+}
+
+.marcador{
+	border: 2px solid red;
+}
+
+.img-redes-sociais:hover{
+	background: none;
+}
+
+.img-rodape{
+	width: 15px;
+	height: 15px;
+	
+}
+
+.img-servicos{
+	margin-top: 15px; 
+	width: 180px;
+	height: 180px;
+	position: relative;
+	left: 25%;
+}
+
+.servicos{
+	margin-top: 30px;
+	padding-top: 15px;
+	width: 100%;
+	/*background: url(../img/background_1.jpg) no-repeat;
+	background-size: contain;*/
+}
+
+.background-servicos{
+	/*background:rgba(93,191,244,0.2); */
+	/*background:rgba(237,209,179,0.4);*/
+	/*background:rgba(82,170,243,0.2);*/
+	background:rgba(138,141,141,0.1);
+
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+
+}
+
+.conteudo-servicos{
+	padding-top: 30px;
+}
+
+.background-titulos:hover, .background-titulos:focus, .background-titulos:active{
+	/*background:rgba(138,141,141,0.1); - Boa opção */ 
+	background: linear-gradient(to bottom, #fafafa, #dbdcf6);
+	border: none;
+}
+
+
+
+
+
+
+
+/* ID's */
+
+#espacamento-titulos-cursos{
+	margin-bottom: 60px;
+}
+
+#espacamento-btn-vertical{
+	margin-bottom: 120px;
+}
+
+#rodape{
+	width: 102%;
+	border-radius: 20px;
+	border-bottom: none;
+	background: rgba(227,188,57,0.7);
+
+}
+
+#itens-rodape{
+	height: 230px;
+	width: 120px;
+	margin: 30px 0px 20px 130px;
+}
+
+#mapa{
+	height: 215px;
+	width: 100%;
+}
+
+
+#rodape .nav a:hover{
+	background: none;
+}
+
+
+/* ----- Contato ----- */
+
+/* Classes */
+
+.pull-right{
+	float: right;
+	margin-right:15px; 
+	margin-bottom: 50px;
+}
+
+.img-contato{
+	height: 240px;
+	width: 350px;
+	float: left;
+	display: block;
+	background-size: contain;
+	background: url(../img/contato.png) no-repeat;
+	color: transparent;
+	margin-top: 55px;
+	opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-radius: 10px;
+}
+
+
+
+/* ID's */
+#contato-titulo{
+	border-bottom: 1px solid gray;
+}
+
+#form-custom{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#mapa{
+	margin-bottom: 110px;
+}
+
+
+
+/* ----- Sobre nós ----- */
+
+/* Classes */
+
+.conteudo-sobre-nos{
+	width: 100%;
+	height: 500px;
+}
+
+
+/* ID's */
+
+
+
+/* ----- Cursos ----- */
+
+/* Classes */
+
+
+/* ID's */
+
+
+
+/* ----- Tipografia ----- */
+
+.div_cursos h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-decoration: underline;
+	margin-bottom: 30px;
+}
+
+.conteudos h2{
+	letter-spacing: -2px;
+	font-size: 35px;
+}
+
+.conteudo-rodape h3{
+
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.conteudos li, .conteudos li a{
+	font-size: 15px;
+	color: #2E2E2E;
+}
+
+.cor-preta{
+	color: #2E2E2E;
+}
+
+.cor-dourada{
+	color: #cc9933;
+	text-align: center;
+	letter-spacing: -1px;
+	/*border-bottom: 2px solid #F6E3CE;*/
+}
+
+h4{
+	font-size: 25px;
+	margin-top: 35px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+h5{
+	font-size: 18px;
+	margin-top: 35px;
+	margin-bottom: 50px;
+	text-decoration: underline;
+}
+
+h3{
+	text-align: center;
+}
+
+.titulos-sobre{									/*Verificar*/
+	font-family: Verdana, sans-serif ;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.titulos-index{
+	font-family: Verdana, sans-serif ;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+
+
+.subtitulo{		//pagina principal, conteudo, sobre os cursos
+font-weight: 800px;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+.subtitulo-sobre{
+	font-size: 30px;
+	text-shadow: 1px 1px;
+	display: block;
+	border-bottom: 1px solid gray;
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+
+.tipografia-sobre-nos{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
