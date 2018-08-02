@@ -351,7 +351,7 @@ text-transform: uppercase;
 
 .subtitulo-sobre{
 	font-size: 30px;
-	text-shadow: 1px 1px;
+	text-shadow: 1px;
 	display: block;
 	border-bottom: 1px solid gray;
 	padding-bottom: 30px;

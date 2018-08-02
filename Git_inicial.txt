@@ -1,0 +1,64 @@
+git init
+git config --global user.name "Name"
+git config --global user.name "Email"
+
+git status 
+	vermelho: arquivos não rastrados (untracked)
+	verde: arquivos prontos para darem commit (stage)
+
+git add.
+
+git commit -m "Descrição"
+
+git log
+git log --oneline (min version)
+
+
+	//	Descartar alterações e voltar ao estado do commit atual 		//
+
+git clean -df
+git checkout -- .
+
+	//	Remover último commit mantendo as alterações nos arquivos 	//
+
+git reset --soft HEAD~1
+
+
+	//	Remover último commit mantendo as alterações nos arquivos INCLUSIVE as alterações no arquivo	//
+
+git reset --hard HEAD~1
+
+
+	//	Navegar entre commits	//
+
+(Ir para determinado commit)
+git checkout código/commit
+
+(Voltar para o último commit)
+git checkout nome-do-branch	Ex. git checkout master
+
+
+	//	Associar repositório remoto ao repositório local	//
+
+-Associando local a nosso repositório remoto
+git remote add origin <URI do repositório>
+
+-Associando local a outro repositório remoto
+git remote set-url origin <URI do repositório>
+	
+	//		Subindo repositório local		//
+
+1° Vez
+git push -u origin master
+
+2° em diante
+git push
+
+	//		Transferindo remoto para local		//
+
+git clone <URI>
+
+	//		Atualizando repositório local		//
+git pull origin master
+
+
