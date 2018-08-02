@@ -131,7 +131,7 @@
      <div class="row ">
        
        <div class="col-md-12 cor-dourada">
-         <h3><span style="font-size: 80px; font-family: 'Italianno', cursive;" >Serviços</span></h3>
+         <h3><span style="font-size: 80px; font-family: 'Italianno', cursive; padding-right: 45px;" >Serviços</span></h3>
        </div>
      </div> 
 
@@ -153,16 +153,38 @@
 
      <div class="row"> <!-- row conteudo servicos -->
 
-          <div class="col-md-4 ">
-            <h4>Abertura de Empresas</h4>
+          <div class="col-md-4" style="padding-left: 6% ;padding-top:20px;">
+            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#janela1" style="background:rgba(138,141,141,0.1);"><span style="font-size: 22px;">Abertura de Empresas</span></button>
           </div>
 
-          <div class="col-md-4 ">
-            <h4>Consultoria</h4>
+          <!-- Modal - Abertura de Empresas -->
+                <div class="modal fade" id="janela1" tabindex="-1" role="dialog" aria-labelledby="conteudojanela1" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="conteudojanela1">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis auctor tempus. Lorem ipsum dolor sit amet,</p>
+                            <p>Morbi dui lacus, placerat eget pretium vehicula, mollis id ligula. Nulla facilisi. </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <!-- end Modal -->
+
+          <div class="col-md-4 " style="padding-left: 10% ;padding-top:20px;">
+            <button class="btn btn-default" style="background:rgba(138,141,141,0.1);"><span style="font-size: 22px;">Consultoria</span></button>
           </div>
 
-          <div class="col-md-4 ">
-            <h4>Contabilidade</h4>
+          <div class="col-md-4 "  style="padding-left: 09% ;padding-top:20px;">
+            <button class="btn btn-default" style="background:rgba(138,141,141,0.1);"><span style="font-size: 22px;">Contabilidade</span></button>
           </div>
        
      </div>
@@ -184,18 +206,18 @@
 
      </div>
 
-    <div class="row"> <!-- row conteudo servicos -->
+    <div class="row" style="padding-bottom: 30px;"> <!-- row conteudo servicos -->
 
-          <div class="col-md-4 ">
-            <h4>Condomínios</h4>
+          <div class="col-md-4 " style="padding-left: 10% ;padding-top:20px;">
+            <button class="btn btn-default" style="background:rgba(138,141,141,0.1);"><span style="font-size: 22px;">Condomínios</span></button>
           </div>
 
-          <div class="col-md-4 ">
-            <h4>Folha de Pagamento</h4>
+          <div class="col-md-4 " style="padding-left: 07% ;padding-top:20px;">
+            <button class="btn btn-default" style="background:rgba(138,141,141,0.1);"><span style="font-size: 22px;">Folha de Pagamento</span></button>
           </div>
 
-          <div class="col-md-4 ">
-            <h4>Legalização</h4>
+          <div class="col-md-4 " style="padding-left: 10% ;padding-top:20px;">
+            <button class="btn btn-default" style="background:rgba(138,141,141,0.1);"><span style="font-size: 22px;">Legalização</span></button>
           </div>
        
     </div>
@@ -366,6 +388,9 @@
         </div>
 
       </div>
+
+
+
 
     </footer>
       <!--<p style="font-size: 10px" align="right"> &copy; 2018 - Lucas Amado</p>-->
