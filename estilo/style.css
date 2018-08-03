@@ -171,6 +171,20 @@ footer{
 	border: none;
 }
 
+.lista_modal{
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+
+.contate-nos{		/*Janela Modal*/
+	color: white;
+}
+.contate-nos:hover{		/*Janela Modal*/
+	color: white;
+	text-decoration: none;
+	text-transform: none;
+}
+
 
 
 
@@ -364,5 +378,10 @@ text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	letter-spacing: 1px;
+}
+
+.modal-body p {
+	font-size: 16px;
+	font-family: sans-serif;
 }
 
