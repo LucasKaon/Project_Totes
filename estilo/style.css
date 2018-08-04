@@ -6,7 +6,7 @@
 
 body, html{
 	font-family: Trebuchet MS;
-	background: linear-gradient(to bottom, #fafafa, #dbdcf6);
+	background: linear-gradient(to bottom, #fafafa, #dbdcf6) no-repeat;
 	margin: 0px;
 
 }
@@ -134,8 +134,8 @@ footer{
 .img-servicos{
 	padding-top: 15px;
 	margin-top: 15px; 
-	width: 180px;
-	height: 180px;
+	width: 20%;
+	height: 20%;
 	position: relative;
 	left: 25%;
 }
