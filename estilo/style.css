@@ -137,7 +137,7 @@ footer{
 	width: 20%;
 	height: 20%;
 	position: relative;
-	left: 25%;
+	left: 40%;
 }
 
 .servicos{
@@ -385,3 +385,33 @@ text-transform: uppercase;
 	font-family: sans-serif;
 }
 
+ @media(max-width: 768px){
+
+          .img-servicos{
+              width: 50%;
+              height: 50%;
+              left: 50%;
+
+          }
+
+          .button_estilo{
+          font-size: 12	px;
+
+          }
+        }
+
+ @media(min-width: 769px){
+
+          .img-servicos{
+              width: 30%;
+              height: 30%;
+              left: 30%;
+          }
+
+          .button_estilo{
+          
+			font-size: 22px;
+
+          }
+
+        }
