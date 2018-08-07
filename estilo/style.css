@@ -388,30 +388,121 @@ text-transform: uppercase;
  @media(max-width: 768px){
 
           .img-servicos{
-              width: 50%;
-              height: 50%;
+              width: 40%;
+              height: 40%;
               left: 50%;
 
           }
 
-          .button_estilo{
-          font-size: 12	px;
-
+          .titulo-servico{
+          	font-size: 80px; 
+          	font-family: 'Italianno', cursive; 
           }
-        }
 
- @media(min-width: 769px){
+          .titulo-cursos{
+          	font-size: 60px;
+          	font-family: 'Italianno', cursive;
+          }
+
+          .pequeno{
+          	margin-top: 1%;
+          	margin-bottom: 2%;
+          	margin-left: 10%;
+          	width: 80%;
+          	font-size: 16px;
+          	white-space: normal;
+          }
+
+          
+
+          #img1{
+          	margin-left: -18%;
+          }
+
+          #img2{
+          	margin-left: -22%;
+          }
+
+          #img3{
+          	margin-left: -22%;
+          }
+
+          #img4{
+          	margin-left: -22%;
+          }
+
+          #img5{
+          	margin-left: -22%;
+          }
+
+          #img6{
+          	margin-left: -22%;
+          }
+
+    }
+
+ @media(min-width: 769px) and (max-width: 1024px){
 
           .img-servicos{
-              width: 30%;
-              height: 30%;
+              width: 25%;
+              height: 25%;
+              left: 38%;
+          }
+
+          .pequeno{
+          	margin-top: 2%;
+          	margin-bottom: 2%;
+          	margin-left: 14%;
+          	width: 70%;
+          	font-size: 22px;
+          	white-space: normal;
+          }
+
+
+          .titulo-servico{
+          	font-size: 80px; 
+          	font-family: 'Italianno', cursive; 
+          	
+          }
+
+          .titulo-cursos{
+
+          	font-size: 80px; 
+          	font-family: 'Italianno', cursive; 
+          
+          }
+            
+        }
+
+ @media(min-width: 1025px){
+
+ 	.img-servicos{
+              width: 45%;
+              height: 45%;
               left: 30%;
           }
 
-          .button_estilo{
-          
-			font-size: 22px;
-
+    .pequeno{
+          	margin-top: 5%;
+          	margin-bottom: 10%;
+          	margin-left: 13%;
+          	width: 80%;
+          	font-size: 22px;
+          	white-space: normal;
           }
 
-        }
+     .titulo-servico{
+          	font-size: 80px; 
+          	font-family: 'Italianno', cursive; 
+          	
+          }     
+
+      .titulo-cursos{
+
+          	font-size: 80px; 
+          	font-family: 'Italianno', cursive; 
+          
+          }
+
+
+ }
