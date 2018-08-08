@@ -202,8 +202,6 @@ footer{
 }
 
 #rodape{
-	width: 102%;
-	border-radius: 20px;
 	border-bottom: none;
 	background: rgba(227,188,57,0.7);
 
@@ -387,6 +385,12 @@ text-transform: uppercase;
 
  @media(max-width: 768px){
 
+
+	 		.ocultar-rodape{
+	 			display: none;
+	 		}
+
+
           .img-servicos{
               width: 40%;
               height: 40%;
@@ -438,6 +442,28 @@ text-transform: uppercase;
           #img6{
           	margin-left: -22%;
           }
+
+          #rodape1{
+          	width: 25%px;
+          	height: 250px;
+          	overflow: hidden;
+          	float: left;
+          }
+
+          #rodape2{
+          	width: 45%;
+          	height: 250px;
+          	overflow: hidden;
+          	float: left;
+          }
+
+          #rodape3{
+          	width: 20%;
+          	height: 250px;
+          	float: left;
+          }
+
+
 
     }
 
