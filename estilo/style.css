@@ -467,7 +467,7 @@ text-transform: uppercase;
 
     }
 
- @media(min-width: 769px) and (max-width: 1024px){
+ @media(min-width: 769px) and (max-width: 990px){
 
           .img-servicos{
               width: 25%;
@@ -497,10 +497,103 @@ text-transform: uppercase;
           	font-family: 'Italianno', cursive; 
           
           }
+
+           	#rodape1{
+          	width: 20%;
+          	height: 250px;
+          	overflow: hidden;
+          	float: left;
+          }
+
+          #rodape-tablet{
+          	width: 100px;
+          	height: 200px;
+          	padding-top: 10%;
+          	float: left;
+          	font-size: 18px;
+          }
+
+          #rodape2{
+          	width: 30%;
+          	height: 250px;
+          	overflow: hidden;
+          	float: left;
+          }
+
+          #rodape3{
+          	margin-top: 2%;
+          	width: 10%;
+          	height: 250px;
+          	float: left;
+          }
             
         }
 
- @media(min-width: 1025px){
+@media(min-width: 991px) and (max-width: 1000px){
+
+          .img-servicos{
+              width: 25%;
+              height: 25%;
+              left: 38%;
+          }
+
+          .pequeno{
+          	margin-top: 2%;
+          	margin-bottom: 2%;
+          	margin-left: 14%;
+          	width: 70%;
+          	font-size: 22px;
+          	white-space: normal;
+          }
+
+
+          .titulo-servico{
+          	font-size: 80px; 
+          	font-family: 'Italianno', cursive; 
+          	
+          }
+
+          .titulo-cursos{
+
+          	font-size: 80px; 
+          	font-family: 'Italianno', cursive; 
+          	border: 2px red solid;
+          }
+
+           	#rodape1{
+          	width: 20%;
+          	height: 250px;
+          	overflow: hidden;
+          	float: left;
+          }
+
+          #rodape-tablet{
+          	width: 100px;
+          	height: 200px;
+          	padding-top: 60%;
+          	float: left;
+          	font-size: 18px;
+          }
+
+         
+
+          #rodape2{
+          	width: 30%;
+          	height: 250px;
+          	overflow: hidden;
+          	float: left;
+          }
+
+          #rodape3{
+          	margin-top: 2%;
+          	width: 10%;
+          	height: 250px;
+          	float: left;
+          }
+            
+        }
+
+ @media(min-width: 1001px){
 
  	.img-servicos{
               width: 45%;
@@ -529,6 +622,23 @@ text-transform: uppercase;
           	font-family: 'Italianno', cursive; 
           
           }
+
+         #rodape-tablet{
+          	width: 100px;
+          	height: 200px;
+          	padding-top: 60%;
+          	float: left;
+          	font-size: 21px;
+          }
+
+          #rodape2{
+          	width: 30%;
+          	height: 250px;
+          	overflow: hidden;
+          	float: left;
+          }
+
+          
 
 
  }
