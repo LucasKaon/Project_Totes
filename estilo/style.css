@@ -382,7 +382,6 @@ text-transform: uppercase;
 
  @media(max-width: 768px){
 
-
   	 		.ocultar-rodape{
 	  			display: none;
 	   		}
@@ -421,23 +420,23 @@ text-transform: uppercase;
           }
 
           #img2{
-          	margin-left: -22%;
+          	margin-left: -20%;
           }
 
           #img3{
-          	margin-left: -22%;
+          	margin-left: -20%;
           }
 
           #img4{
-          	margin-left: -22%;
+          	margin-left: -20%;
           }
 
           #img5{
-          	margin-left: -22%;
+          	margin-left: -20%;
           }
 
           #img6{
-          	margin-left: -22%;
+          	margin-left: -20%;
           }
 
           #rodape1{
@@ -546,6 +545,8 @@ text-transform: uppercase;
             .centralizar{
               margin-left: 15%;
             }
+
+
         }
 
 @media(min-width: 991px) and (max-width: 1000px){

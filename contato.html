@@ -15,6 +15,10 @@
 
         <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet"> <!-- Minha fonte. -->
 
+        <script type="text/javascript">
+
+
+        </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,7 +43,7 @@
             <span class="icon-bar"></span> 
             <span class="icon-bar"></span> 
           </button>
-          <a href="#" class="navbar-brand img-logo"></a>
+          <a href="index.html" class="navbar-brand img-logo"></a>
         </div> <!-- end Colapse -->
 
         <div class="collapse navbar-collapse " id="barra">
@@ -49,7 +53,7 @@
             <li> <a href="sobre-nos.html"><span class="link-custom">Sobre nós</span></a> </li>
             <li> <a href="cursos.html"><span class="link-custom">Cursos</span></a> </li>
               
-            <li> <a href="#"><span class="link-custom">Serviços</span></a></li>
+            <li> <a href="index.html#ref-servicos"><span class="link-custom">Serviços</span></a></li>
             <li class="nano"> <a href="#"><span class="link-custom">Contato</span></a></li>
             
             
@@ -68,23 +72,23 @@
         
         <div class="col-sm-8 centralizar"> <!-- Início Formulário -->
               
-            <form id="form-custom" method="post" action="http://www.totescontabilidade.com.br/cgi-sys/formmail.pl"/> 
+            <form id="form-custom" method="post" action="contato.php"/> 
             <input type="hidden" name="recipient" value="totes@totescontabilidade.com.br"/>
             <input type="hidden" name="subject" value="Formulário FormMail"/><input type="hidden" name="redirect" value="http://www.totescontabilidade.com.br"/>
               
               <div class="form-group">
-                <label for="nome">Nome: </label>
-                <input type="text" class="form-control" id="nome" required  autofocus>
+                <label  for="nome">Nome: </label>
+                <input type="text" class="form-control" id="nome" name="nome" required  autofocus>
               </div>
 
               <div class="form-group">
                 <label for="email">Email: </label>
-                <input type="email" class="form-control" id="email" required >
+                <input type="email" class="form-control" id="email" name="email" required >
               </div>
 
               <div class="form-group">
                 <label for="assunto">Assunto: </label>
-                <input type="text" class="form-control" id="assunto" required >
+                <input type="text" class="form-control" id="assunto" name="assunto" required >
               </div>
 
               <div class="form-group">
@@ -92,9 +96,11 @@
                 <textarea name="mensagem" rows="5" placeholder="Digite aqui a sua mensagem" class="form-control" required></textarea>
               </div>
 
-              <button type="submit" class="btn btn-default pull-right">
+              <button type="submit" value="Enviar" class="btn btn-default pull-right">
                Enviar
                </button>
+               <input type="hidden" name="redirect" value="http://www.totescontabilidade.com.br/">
+
 
                <button type="reset" class="btn btn-reverse pull-right">
                Limpar

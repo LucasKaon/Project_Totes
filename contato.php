@@ -18,13 +18,13 @@
 
   	mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email.
 
-  	// Compo E-mail
+  	// Corpo E-mail
   $arquivo = "
   <style type='text/css'>
   body {
-  margin:0px;
+  margin:18px;
   font-family:Verdane;
-  font-size:12px;
+  font-size:20px;
   color: #666666;
   }
   a{
@@ -55,7 +55,7 @@
             </td>
           </tr>  
           <tr>
-            <td>Este e-mail foi enviado em <b>$data_envio</b> às <b>$hora_envio</b></td>
+            <td>Este e-mail foi enviado em <b>$data_envio</b> as <b>$hora_envio</b></td>
           </tr>
         </table>
     </html>
@@ -66,7 +66,7 @@
   // emails para quem será enviado o formulário
   $emailenviar = "totes@totescontabilidade.com.br";
   $destino = $emailenviar;
-  $assunto = "Contato pelo Site Totes Contabilidade - ";
+  $assunto = "Contato pelo Site Totes Contabilidade ";
  
   // É necessário indicar que o formato do e-mail é html
   	  $headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -77,14 +77,8 @@
   $enviaremail = mail($destino, $assunto, $arquivo, $headers);
   if($enviaremail){
   $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
-  echo " <meta http-equiv='refresh' content='10;URL=contato.html'>
-  <style type='text/css'>
-  
-  </style>
-    <html>
-     
+  echo " <meta http-equiv='refresh' content='0;URL=send_bar.html'>
 
-    </html>
   ";
   } else {
   $mgm = "ERRO AO ENVIAR E-MAIL!";
