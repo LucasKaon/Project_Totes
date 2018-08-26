@@ -26,6 +26,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Utilidade : https://sitecontabil.com.br/facilitador.htm , https://sitecontabil.com.br/formularios/ -->
+
   </head>
   <body>
     
@@ -42,7 +44,7 @@
             <span class="icon-bar"></span> 
             <span class="icon-bar"></span> 
           </button>
-          <a href="#" class="navbar-brand img-logo"></a>
+          <a href="index.html" class="navbar-brand img-logo"></a>
         </div> <!-- end Colapse -->
 
         <div class="collapse navbar-collapse " id="barra">
@@ -61,7 +63,7 @@
                   <li> <a href="#">Escrita Fiscal</a> </li>
                 </ul>
               </li>  Fim do dropdown -->
-            <li> <a href="#"><span class="link-custom">Serviços</span></a></li>
+            <li> <a href="index.html#ref-servicos"><span class="link-custom">Serviços</span></a></li>
             <li> <a href="contato.html"><span class="link-custom">Contato</span></a></li>
             
             
@@ -74,7 +76,7 @@
 
      <div class=" row col-md-12 ">
        
-       <div id="slides" class="carousel slide" data-ride="carouse">
+       <div id="slides" class="carousel slide" data-ride="carousel">
          
         <!-- Indicators -->
 
@@ -131,7 +133,7 @@
      <div class="row ">
        
        <div class="col-md-12 cor-dourada">
-         <h3><span class="titulo-servico" >Serviços</span></h3>
+         <h3><span class="titulo-servico" id="ref-servicos" >Serviços</span></h3>
        </div>
      </div> 
 
@@ -366,8 +368,8 @@
       </div> <!-- end btn-vertical --> 
       
       
-        <div class="col-md-6 col-md-offset-2 div_cursos" id="tab_1" style="display: none;">
-          <h3>Departamento Pessoal</h3>
+        <div class="col-md-6 col-md-offset-2 div_cursos" id="tab_1" style="display: none; ">
+          <h3><span style="font-family: 'Italianno', cursive; font-size: 55px; text-decoration: none;">Departamento Pessoal</span></h3>
           <p>
             <ul>
 
@@ -386,7 +388,7 @@
         </div>
 
         <div class="col-md-6 col-md-offset-2 div_cursos" id="tab_2" style="display: none;">
-          <h3>Escrita Fiscal</h3>
+          <h3><span style="font-family: 'Italianno', cursive; font-size: 55px; text-decoration: none;">Escrita Fiscal</span></h3>
           <p>
             <ul>
 
@@ -406,7 +408,7 @@
         </div>
 
         <div class="col-md-6 col-md-offset-2 div_cursos" id="tab_3" style="display: none;">
-          <h3>Rotinas Administrativas</h3>
+          <h3><span style="font-family: 'Italianno', cursive; font-size: 55px; text-decoration: none;">Rotinas Administrativas</span></h3>
           <p>
             <ul>
               <li style="margin-bottom: 7px;"><span class="subtitulo">Carga Horária:</span> 60h </li>
@@ -426,7 +428,7 @@
         </div>
 
         <div class="col-md-6 col-md-offset-2 div_cursos " id="tab_4" style="display: none;">
-          <h3>Contabilidade</h3>
+          <h3><span style="font-family: 'Italianno', cursive; font-size: 55px; text-decoration: none;">Contabilidade</span></h3>
           <p>
             <ul>
 
@@ -455,12 +457,12 @@
         <div class="row">  <!-- Row -->
           
           <div class="col-md-2">
-            <h4 style="padding-top: 50%">
+            <h4  class="ocultar-rodape " id="rodape-tablet">
               Mapa do Site
             </h4>
           </div>
 
-          <div class="col-md-2 ">
+          <div class="col-md-2 " id="rodape1">
             
             <ul class="nav" style="padding-top: 25%">
               <li><a class="cor-preta" href="indes.html">Home</a></li>
@@ -471,14 +473,14 @@
             </ul>
           </div>
 
-          <div class="col-md-2 col-md-offset-1 ">
-            <h4 style="padding-top: 50%">
+          <div class="col-md-2  " >
+            <h4 class="ocultar-rodape" id="rodape-tablet">
               Contato
             </h4>
           </div>
 
-          <div class="col-md-2 ">
-            <ul class="nav" style="padding-top: 50%">
+          <div class="col-md-2" id="rodape2" >
+            <ul class="nav" style="padding-top: 30%">
 
               <li>
                 <p><img src="img/icon/casa.svg" class="img-rodape"><a href="contato.html" class="cor-preta" style="margin-left: 10px;">Al. Couto Magalhães, n°21 Qd. 88 Lt.15, Setor Pedro Ludovico</a></p>
@@ -494,7 +496,7 @@
 
           
 
-          <div class="col-md-2 col-md-offset-1">
+          <div class="col-md-2" id="rodape3">
 
             <ul class="nav" style="padding-top: 20%; margin-bottom: 30px;">
               <li><a href="#"><img src="img/icon/facebook.png" class="img-redes-sociais"></a></li>
@@ -507,12 +509,12 @@
         </div>
 
       </div>
-
+     <!-- <p style="font-size: 8px; float: right; margin-bottom = 0;" > &copy; 2018 - Lucas Amado </p> -->
 
 
 
     </footer>
-      <!--<p style="font-size: 10px" align="right"> &copy; 2018 - Lucas Amado</p>-->
+      
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
